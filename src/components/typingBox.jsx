@@ -195,6 +195,7 @@ const TypingBox = () => {
           extraChars={extraChars}
           graphData={graphData}
           testTime={testTime}
+          reset={reset}
         />
       ) : (
         <div className="type-box" onClick={focusInput}>
